@@ -1,0 +1,28 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+button{
+    width:150px;
+    font-size:1.5rem;
+    padding:0.5em;
+    background:transparent;
+    border:2px solid black;
+}
+.box{
+    width:300px;
+    height:300px;
+    box-shadow:0px 0px 5px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:0.8em;
+}
+input[type="text"]{
+    border:2px solid gray;
+    padding:1em;
+}
