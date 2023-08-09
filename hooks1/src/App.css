@@ -1,0 +1,22 @@
+body{
+  display:flex;
+  justify-content: center;
+
+}
+.box{
+  display:flex;
+  margin-top:80px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: skyblue;
+  width:250px;
+  height:250px;
+  box-shadow: 0px 0px 6px;
+}
+button{
+  width:120px;
+  padding:0.3em;
+  background:black;
+  color:white;
+}
